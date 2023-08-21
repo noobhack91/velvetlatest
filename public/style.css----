@@ -1,0 +1,417 @@
+.my-card-tt {
+    display: inline-block;
+    width: 100%;
+}
+.my-card-tt .form-group {
+    display: inline-block;
+    width: 49%;
+    padding-right: 15px;
+    vertical-align: top;
+}
+.my-card-tt .form-group label {
+    width: 100%;
+    margin: 0;
+    padding-bottom: 5px;
+}
+.my-card-tt .form-group input, .my-card-tt .form-group select {
+    height: 45px;
+    line-height: 40px;
+    padding: 0 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #fbaa52;
+    outline: 0;
+}
+.my-card-tt .form-group textarea {
+    height: 75px;
+    line-height: 24px;
+    padding: 0 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #fbaa52;
+    outline: 0;
+}
+.my-tt-button {
+    width: 100%;
+    text-align: center;
+}
+.my-project-tt form {
+    /*width: 49%;*/
+    width: auto;
+    width: auto;
+    display: inline-block;
+}
+
+.my-minusbt {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+.my-minusbt input + input {
+    margin-left: 20px;
+}
+.my-minusbt .remove_button {
+    padding-left: 10px;
+    align-self: center;
+}
+.upper-plus-wrap {
+    width: calc(100% - 25px);
+}
+.upper-plus-wrap input {
+    margin-bottom: 20px;
+    width: 100% !important;
+}
+.pagination .shadow-sm.rounded-md {
+    display: flex;
+    justify-content: start;
+}
+.pagination p.leading-5 {
+    display: none;
+}
+.pagination .shadow-sm.rounded-md svg.w-5.h-5 {
+    width: 20px;
+    height: 20px;
+}
+.pagination .flex-1{
+    display: none;
+}
+.pagination span.relative.inline-flex.items-center.px-4.py-2.-ml-px.text-sm {
+    color: #ffffff !important;
+    background-color: #000000 !important;
+}
+
+
+/*-------19/04/2022 -----*/
+
+span.chr-sms-wrap {
+    display: block;
+    width: 100%;
+}
+textarea.cstm-txtarea {
+    width:100%;
+   padding:10px 15px;
+    border-radius:10px;
+    border: 1px solid #bdbdbd;
+}
+.card-primary {
+    padding-bottom: 20px;
+}
+
+
+.my-atdescription .form-group {
+    width: 50%;
+}
+.my-atdescription .my-description textarea {
+    border-radius: 10px;
+    border: 1px solid #bdbdbd;
+    outline: 0;
+    width: 100%;
+}
+
+.my-table {
+    width: 50%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    border: none;
+}
+#myModal .modal-dialog {
+    max-width: 45%;
+}
+#chqueModal .modal-dialog {
+    max-width: 45%;
+}
+#latecharges_div{
+    display:none;
+}
+.at-latecharges input {
+    width: auto !important;
+    height: auto !important;
+    vertical-align: middle;
+}
+.at-latecharges label {
+    width: auto !important;
+    padding-right: 10px;
+}
+.amount-ct form input.rt-margin {
+    margin-right: 20px;
+}
+.amount-ct form {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 15px;
+    width: 60%;
+}
+.amount-ct form input[type="submit"] {
+    padding: 0 20px;
+}
+#calculation_bkend_loan table td input{
+    border:none !important;
+    background-color: transparent !important;
+}
+.go_loan {
+    position: absolute;
+    top: 23%;
+    background-color: #020202;
+    color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+ #loader .loaderimg{
+     height:60px;
+     width: 60px;
+     text-align: justify;
+     float:right;
+     display:none;
+     top: 50%;
+    position: absolute;
+    left: 50%;
+    z-index: 11111;
+
+ }
+ #chqueModalmultiple .modal-dialog {
+    max-width: 60%;
+    margin: 1.75rem auto;
+}
+#chqueModalmultiple .modal-dialog form table input {
+    border: none;
+    background-image: none !important;
+    outline: none !important;
+}
+
+
+.remove-btn{
+    background-color: #fbaa52;
+    color:#fff;
+    
+}
+
+/***********15-10-2022************/
+
+.card-primary:not(.card-outline)>.card-header {
+    background-color: #fbaa52;
+}
+.btn-success {
+    background-color: #fbaa52;
+    border-color: #fbaa52;
+}
+.btn-success:hover {
+    background-color: #fbaa52;
+    border-color: #fbaa52;
+}
+
+.custom-admin-logo img {
+    width: 100% !important;
+}
+.custom-admin-logo {
+    width: 50%;
+    margin: 0 auto;
+    padding-left: 0;
+}
+.info a.nav-link {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 0;
+    padding-left: 0;
+}
+
+/* diksha */
+.card-wrap {
+    padding: 20px 0px 0px 30px;
+}
+.custom-d-form input, .custom-d-form select {
+    height: 45px;
+    line-height: 40px;
+    padding: 0 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #fbaa52;
+    outline: 0;
+
+}
+.form-control:focus {
+    border-color: #fbaa52;
+}
+.checkbox label{
+    padding-left:10px;
+}
+.content-wrapper{
+    padding: 20px;
+}
+.profile-text {
+    padding: 20px;
+}
+.profile-text-dk .ck.ck-toolbar{
+    border: 1px solid #fbaa52;
+    width: 50%;
+
+}
+ .profile-text-dk .ck.ck-editor__editable_inline{
+    border: 1px solid #fbaa52 !important;
+    width: 50%;
+    word-break:break-all;
+} 
+ .profile-text-dk input.title-input {
+    border: 1px solid #fbaa52;
+    width: 50%;
+    height: 45px;
+    line-height: 40px;
+    padding-left: 10px;
+}
+.profile-text-dk label.title-label{
+    width: 100%;
+    margin:15px 0;
+} 
+
+.set-rates-left-table input {
+    border: 1px solid #fbaa52;
+    outline: 0;
+    height: 35px;
+    line-height: 35px;
+    padding: 0 10px;
+}
+.set-rates .ck.ck-toolbar {
+    border: 1px solid #fbaa52;
+}
+.set-rates .ck.ck-editor__editable_inline {
+    border: 1px solid #fbaa52 !important;
+}
+.ck.ck-editor__main>.ck-editor__editable:not(.ck-focused) {
+    border-color: #fbaa52;
+}
+.set-rates table tr td{
+    padding-bottom: 10px;
+}
+.availability{
+    padding: 20px;
+}
+.independent-packages{
+    padding: 20px;
+}
+
+
+.availability tbody {
+    background-color: beige;
+    padding: 10px;
+    display: inline-block;
+}
+.availability td.monday-bg {
+    width: 30%;
+    padding: 0 20px;
+}
+.availability td.availability-monday-checkbox-bg {
+    width: 40%;
+    padding: 0 20px;
+}
+.availability tr.line-tr-bg {
+    background-color: #ccc !important;
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px 0;
+}
+
+.availability-monday-input {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+.availability-monday-checkbox {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+.profile-text-form-content .ck.ck-editor__editable_inline{
+      word-break: break-all;
+}
+.round-small {
+    width: 200px;
+    height: 200px;
+}
+
+
+
+/*responsive 4/3/2023*/
+
+
+@media screen and (max-width: 1199px){
+    
+}
+
+@media screen and (max-width: 640px){
+    .content-wrapper {
+      padding: 10px;
+    }
+    .card-wrap {
+    padding: 10px 15px 0px 15px;
+}
+
+}
+@media screen and (max-width: 575px){
+    
+    .profile-text-dk .ck.ck-toolbar{
+        width:100%;
+    }
+    .profile-text-dk .ck.ck-editor__editable_inline{
+        width:100%;
+    }
+    .profile-text-dk input.title-input {
+        width:100%;
+    }
+}
+
+
+@media screen and (max-width: 480px){
+    
+    .my-card-tt .form-group{
+        width:100%;
+        padding-right:0;
+    }
+    .content-wrapper {
+        padding:0;
+    }
+    .table td{
+    padding: 10px 5px;
+    }
+    .round-small {
+    width: 120px;
+    height: 120px;
+}
+.table th {
+    padding: 10px 5px;
+}
+.set-rates-left-table input {
+    width: 100px;
+}
+}
+
+.vertical-item.content-absolute {
+    width: 50%;
+    margin: 0 10px;
+}
+
+.item-media img{
+ width: 100%;
+ height: 320px;
+}
+
+.fashion{
+    display: flex;
+    vertical-align: top;
+}
+
+.verification form{
+    width:50%;
+}
+
+.verification select {
+    width: 100%;
+    height: 45px;
+    margin-bottom: 20px;
+}
+
+.verification input[type="submit"] {
+    width: 100%;
+    height: 45px;
+}
+
